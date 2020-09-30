@@ -1,3 +1,18 @@
 #search-value {
     text-align: center;
 }
+.card {
+    text-align: center;
+}
+.card .temp{
+    font-size: 50px;
+    font-weight: 300;
+}
+.card-title{
+    font-size: 50px;
+
+}
+.forcast-title{
+    font-size: 25px;
+
+}
