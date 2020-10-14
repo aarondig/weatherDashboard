@@ -37,7 +37,7 @@ $(".history").on("click", "button", function() {
 function getWeather(input){
 
   $.ajax({
-    url: "http://api.openweathermap.org/data/2.5/weather?q=" + input + "&appid=d131873e86b9f2f9dc12a80c1198f4a1&units=imperial",
+    url: "https://api.openweathermap.org/data/2.5/weather?q=" + input + "&appid=d131873e86b9f2f9dc12a80c1198f4a1&units=imperial",
     method: "GET"
   }).then(function(response){
 
